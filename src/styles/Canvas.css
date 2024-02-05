@@ -1,0 +1,24 @@
+.canvas-container {
+    width: 70%;
+    height: 100vh;
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .canvas-asset {
+    position: absolute;
+    cursor: move;
+    transform: translate(-50%, -50%); /* Orta noktaya odaklanma */
+  }
+
+  .remove-asset {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #fff;
+    color: #ff0000;
+  }
